@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+    // push
+    let ar = ["abc", "pqr"]
+    ar.push("def")
+    console.log(ar)
+
+    //   pop
+    let ar1 = [10, 20, 30]
+    let res = ar1.pop()
+    console.log(ar1)
+    console.log(res)
+
+    //   map
+    let num=[1,2,3,4]
+    let r=num.map(n=>n*n)
+    console.log(r)
+    console.log(num)
+
+    //  filter
+    let age=[18,20,14,12]
+    let adult=age.filter(a=> a>=18)
+    console.log(adult)
+    console.log(age)
+
+    // forEach
+    let name=['abc','pqr','xyz']
+    name.forEach(n=>{console.log('Hello'+n)})
+
+    // includes
+    let color=['red','green','blue']
+    console.log(color.includes('blue'))
+    console.log(color.includes('purple'))
+
+    // find
+    let user=[{id:1,name:'ahsb'},{id:2,name:'jbnjn'},{id:3,name:'hxb'}]
+    let re=user.find(u => u.name==='ahsb')
+    console.log(re)
+
+    </script>
+  </head>
+</html>
